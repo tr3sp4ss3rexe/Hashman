@@ -7,6 +7,7 @@
 
 import hashlib
 import os
+import sys
 from pyfiglet import Figlet as F
 
 ######
@@ -57,8 +58,6 @@ elif beta == "6":
 	
 else: 
 	print("Mentioned cifer is not supported! Try again!")
-
-
-
+	sys.exit()
 
 
